@@ -12,3 +12,9 @@
 * dump ----- 
 
 http://mininet.org/walkthrough/
+
+Start RYU(New Terminal)--
+
+cd ~/ryu
+
+PYTHONPATH=. ./bin/ryu-manager ryu/app/simple_switch.py   ---- ryu controller running simple_switch.py app listening on port 6633
